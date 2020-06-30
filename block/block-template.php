@@ -1,5 +1,5 @@
 <?php 
-	function acf_block_boilerplate_callback() {
+	function acf_slider_block_callback() {
 		
 		
 
