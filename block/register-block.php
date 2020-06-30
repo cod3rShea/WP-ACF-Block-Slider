@@ -5,16 +5,16 @@
       	
 
       	acf_register_block( array(
-                  'name'              => 'acf-block-boilerplate',
-                  'title'             => __('ACF Block Boilerplate'),
-                  'description'       => __('This is a ACF Block Boilerplate '),
-                  'render_callback'   => 'acf_block_boilerplate_callback',
+                  'name'              => 'acf-slider-block',
+                  'title'             => __('ACF Slider Block'),
+                  'description'       => __('This will add a ACF slider Block'),
+                  'render_callback'   => 'acf_slider_block_callback',
                   'category'          => 'formatting',
                   'icon'              => 'images-alt',
                   'mode'              => 'preview',
-                  'keywords'          => array( 'ACF Block', 'ACF', 'Boilerplater')
+                  'keywords'          => array( 'Slider', 'Owl', 'carousel')
       	));
 
       }
-      add_action('acf/init', 'acf_block_boilerplate_function' );
+      add_action('acf/init', 'acf_slider_block_function' );
 ?>
