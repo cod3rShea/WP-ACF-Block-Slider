@@ -1,5 +1,5 @@
 <?php 
-      function acf_block_boilerplate_function() {
+      function acf_slider_block_function() {
       	if( ! function_exists('acf_register_block') )
       		return;
       	
@@ -18,3 +18,4 @@
       }
       add_action('acf/init', 'acf_slider_block_function' );
 ?>
+
