@@ -1,0 +1,270 @@
+[
+    {
+        "key": "group_5efa88cac7314",
+        "title": "Slider Content",
+        "fields": [
+            {
+                "key": "field_5efa88d809ec9",
+                "label": "Slider",
+                "name": "acf_slider_repeater",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Add A Slide",
+                "sub_fields": [
+                    {
+                        "key": "field_5efa892e09eca",
+                        "label": "Background Image",
+                        "name": "acf_slider_repeater_background_image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5efa897109ecb",
+                        "label": "Content",
+                        "name": "acf_slider_repeater_content_group",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5efa89a909ecc",
+                                "label": "Content Background Color",
+                                "name": "acf_slider_group_content_background_color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "#43608f"
+                            },
+                            {
+                                "key": "field_5efa89cb09ecd",
+                                "label": "Content Text",
+                                "name": "acf_slider_group_content_text",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            },
+                            {
+                                "key": "field_5efa89ff09ece",
+                                "label": "Content text Color",
+                                "name": "acf_slider_group_content_text_color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "#fff"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_5efa8a8de2179",
+                        "label": "Button",
+                        "name": "acf_slider_repeater_button_group",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5efa8b1fe217a",
+                                "label": "Button Text",
+                                "name": "acf_slider_button_group_button_text",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5efa8b4ee217b",
+                                "label": "Button URL",
+                                "name": "acf_slider_button_group_button_url",
+                                "type": "url",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_5efa8e56ba478",
+                                "label": "Button Color",
+                                "name": "acf_slider_button_group_button_color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "#f6ae3a"
+                            },
+                            {
+                                "key": "field_5efa8e6fba479",
+                                "label": "Button Hover Color",
+                                "name": "acf_slider_button_group_hover_color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "#fff"
+                            },
+                            {
+                                "key": "field_5efa8ea6ba47a",
+                                "label": "Button Text Color",
+                                "name": "acf_slider_button_group_text_color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "#fff"
+                            },
+                            {
+                                "key": "field_5efa8f65ba47b",
+                                "label": "Button Hover Text Color",
+                                "name": "acf_slider_button_group_hover_text_color",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "#f6ae3a"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_5efa8ba4c9974",
+                        "label": "Active?",
+                        "name": "acf_slider_repeater_active",
+                        "type": "button_group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "yes": "Yes",
+                            "no": "No"
+                        },
+                        "allow_null": 0,
+                        "default_value": "",
+                        "layout": "horizontal",
+                        "return_format": "value"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/acf-slider-block"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
