@@ -254,7 +254,7 @@
                 {
                     "param": "block",
                     "operator": "==",
-                    "value": "acf\/acf-slider-block"
+                    "value": "acf\/acf-slider"
                 }
             ]
         ],

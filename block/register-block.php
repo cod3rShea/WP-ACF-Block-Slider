@@ -1,21 +1,20 @@
 <?php 
-      function acf_slider_block_function() {
+      function acf_slider_register_blocks() {
       	if( ! function_exists('acf_register_block') )
       		return;
       	
 
       	acf_register_block( array(
-                  'name'              => 'acf-slider-block',
-                  'title'             => __('ACF Slider Block'),
-                  'description'       => __('This will add a ACF slider Block'),
-                  'render_callback'   => 'acf_slider_block_callback',
+                  'name'              => 'acf-slider',
+                  'title'             => __('Carousel'),
+                  'description'       => __('A simple carousel block'),
+                  'render_callback'   => 'acf_icon_title_callback',
                   'category'          => 'formatting',
                   'icon'              => 'images-alt',
                   'mode'              => 'preview',
-                  'keywords'          => array( 'Slider', 'Owl', 'carousel')
+                  'keywords'          => array( 'carousel', 'slider')
       	));
 
       }
-      add_action('acf/init', 'acf_slider_block_function' );
+      add_action('acf/init', 'acf_slider_register_blocks' );
 ?>
-

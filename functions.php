@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: ACF Slider Block
- * Plugin URI:  
- * Description: This will allow for a slider Block. Must use ACF to use this extension.
+ * Plugin Name: Repeater slider Gutten Block.
+ * Plugin URI:  seansheadev.com
+ * Description: This Plugin will create a custom Block for Guttenburg. This Plugin requires a minimun version 5.8 for Advanced Custom Fields.
  * Version:     1.0
  * Author:      Sean Shea
  * Author URI:  seansheadev.com
