@@ -8,7 +8,7 @@
                   'name'              => 'acf-slider',
                   'title'             => __('Carousel'),
                   'description'       => __('A simple carousel block'),
-                  'render_callback'   => 'acf_icon_title_callback',
+                  'render_callback'   => 'acf_carousel_callback',
                   'category'          => 'formatting',
                   'icon'              => 'images-alt',
                   'mode'              => 'preview',
